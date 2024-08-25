@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div class="tag-input-container">
+      <p>Invite guests</p>
+      <input type="email" id="tag-input" placeholder="Enter email address" />
+      <div class="tag-list-container"></div>
+      <div class="invite">
+        <div>
+          Invite <span class="tag-count">0</span> guest to this retrospective
+        </div>
+        <button id="button">Invite guests</button>
+      </div>
+    </div> -->
+    <div class="tag-input-container">
+      <p>Invite guests</p>
+      <div class="tag-list-container">
+        <!-- Tag input with tags inside -->
+        <div class="tag-cover">
+          <div class="tag-list">
+            <!-- Tags will be added dynamically here -->
+          </div>
+          <input
+            type="text"
+            id="email-input"
+            placeholder="Enter email address"
+          />
+        </div>
+      </div>
+      <div class="flex">
+        <p id="tag-count">
+          Invite <span class="count-class">0 guest</span> to this retrospective
+        </p>
+
+        <button id="invite-guest-btn">Invite Guest</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
